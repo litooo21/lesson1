@@ -9,10 +9,8 @@ last_name.capitalize!
 print "What's heihgt your body in centimeters ?"
 heihgt = gets.chomp.to_i
 
-decision = #{(heihgt - 110) * 1.15}
-if 
-#decision < 0
-puts 'your weight is already optimal'
+if (heihgt - 110) * 1.15<0
+puts "#{first_name} #{last_name} your weight is already optimal"
 else
-puts'you are problem man, go to fit'
+puts "you are problem man"
 end
