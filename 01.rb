@@ -6,8 +6,8 @@ print 'your last name?'
 last_name = gets.chomp
 last_name.capitalize!
 
-print 'What's heihgt your body in centimeters ?'
-heihgt = gets.chomp
+print "What's heihgt your body in centimeters ?"
+heihgt = gets.chomp.to_i
 
 decision = #{(heihgt - 110) * 1.15}
 if 
