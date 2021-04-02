@@ -24,17 +24,17 @@ c = weight_triangle
 
 if
 (a == b && a == c && b == c)
-puts "triangle равносторонний"
+  puts "triangle равносторонний"
 elsif
 (b == a || b == c || a == c)
-puts "triangle равнобедренный"
+ puts "triangle равнобедренный"
 elsif
 (a > b && a > c)
-puts "#{b**2 + c**2 <= a**2}" "прямоугольный"
+ puts "#{b**2 + c**2 <= a**2}" "прямоугольный"
 elsif
 (b > a && b > c)
-puts "#{a**2 + c**2 <= b**2}" "прямоугольный"
+ puts "#{a**2 + c**2 <= b**2}" "прямоугольный"
 elsif
 (c > b && c > a)
-puts "#{a**2 + b**2 <= c**2}" "прямоугольный"
+ puts "#{a**2 + b**2 <= c**2}" "прямоугольный"
 end
