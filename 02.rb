@@ -5,10 +5,10 @@
 
 =end
 
-print "Input height"
+print 'Input height'
 height_triangle = gets.chomp
 h = height_triangle
-print "input base"
+print 'input base'
 base_triangle = gets.chomp
 a = base_triangle
 s = #{1/2*A*H}
